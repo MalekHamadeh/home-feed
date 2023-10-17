@@ -1,0 +1,89 @@
+.main-card {
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  border-bottom: 1px solid #f5f5f5;
+  border-radius: 0;
+}
+
+.feed-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+  padding-bottom: 0.7rem;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.feed-card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.feed-card-user {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.feed-user-info {
+  display: "flex";
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.card-post-user {
+  font-weight: 600;
+}
+
+.feed-user-date {
+  color: #4c5778;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.yellow-dot {
+  width: 5px;
+  height: 5px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.more-options-btn {
+  font-size: 20px;
+}
+
+.card-tags {
+  border-radius: 5px;
+  background-color: #d1f0f9;
+  padding: 0.4rem;
+  height: 1.5rem;
+}
+
+.feed-card-post-desc {
+  ion-text {
+    line-height: 21px;
+  }
+}
+
+.post-image {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.feed-card-footer {
+  display: flex;
+  flex-direction: row;
+}

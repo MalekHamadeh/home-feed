@@ -1,0 +1,47 @@
+.posting-rules-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.posting-rules-title {
+  font-weight: 600;
+  font-size: large;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.posting-rules-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.posting-rule-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  background-color: #ececec;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.posting-rule-nb {
+  background-color: yellow;
+  display: flex;
+  height: 32px;
+  width: 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.posting-rules-confirm-btn {
+  display: flex;
+  height: 30vh;
+  justify-content: center;
+  align-items: end;
+  ion-button {
+    width: 95%;
+  }
+}

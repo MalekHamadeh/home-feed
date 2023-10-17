@@ -1,0 +1,27 @@
+.action-sheet-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.action-sheet-btn {
+  width: 95%;
+}
+
+.action-sheet-report-btn {
+  width: 95%;
+  --background: #f7e7e7;
+  --background-hover: #f7e7e7;
+  --background-focused: #f7e7e7;
+  --background-activated: #f7e7e7;
+
+  --color: #b40b0b;
+}
+
+.action-sheet-icon {
+  margin-right: 1rem;
+}

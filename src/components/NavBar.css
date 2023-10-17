@@ -1,0 +1,16 @@
+.navbar-wrapper {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-btns {
+  display: flex;
+  align-items: center;
+}
+
+.credits-btn {
+  height: 2rem;
+  font-weight: 600;
+}

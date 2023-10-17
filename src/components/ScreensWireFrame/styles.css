@@ -1,0 +1,11 @@
+ion-buttons {
+  padding: 16px;
+}
+
+ion-back-button {
+  --icon-font-size: 18px;
+  --icon-margin-end: 0.5rem;
+  --text-font-size: 20px;
+  padding-left: 0.5rem;
+  padding-top: 1rem;
+}

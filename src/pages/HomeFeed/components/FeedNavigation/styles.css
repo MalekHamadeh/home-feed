@@ -1,0 +1,25 @@
+.feed-nav-bar-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1rem;
+
+  align-items: center;
+}
+
+.feed-nav-bar-title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.feed-nav-bar-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 25px;
+
+  ion-button {
+    padding: 0;
+    margin: 0;
+  }
+}

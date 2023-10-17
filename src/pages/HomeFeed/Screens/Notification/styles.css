@@ -1,0 +1,69 @@
+.notifications-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/*NotificationCard*/
+.notification-card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ececec;
+}
+
+.notification-card-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.notification-card-text {
+  font-size: 14px;
+  display: flex;
+}
+
+.notification-card-icon {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ion-icon {
+    font-size: large;
+  }
+}
+
+.notification-double-card {
+  display: flex;
+  flex-direction: row;
+  gap: 0.2rem;
+  padding: 1rem;
+  align-items: center;
+  ion-icon {
+    font-size: x-large;
+  }
+  border-bottom: 1px solid #ececec;
+}
+
+.notification-double-card-icon {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.like-report-card {
+  background-color: rgb(250, 204, 204);
+}
+.comment-card {
+  background-color: rgb(204, 216, 250);
+}
+
+.approve-card {
+  background-color: rgb(193, 255, 193);
+}

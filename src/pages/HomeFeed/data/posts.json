@@ -1,0 +1,145 @@
+[
+  {
+    "userId": 1,
+    "postId": 1,
+    "datePosted": "Jun 06",
+    "description": "sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+    "images": ["http://dummyimage.com/191x100.png/cc0000/ffffff"],
+    "category": "General",
+    "likes": [2, 3],
+    "comments": [
+      {
+        "userId": 2,
+        "commentDate": "Jun 07",
+        "commentDesc": "Nice Post"
+      }
+    ]
+  },
+  {
+    "userId": 1,
+    "postId": 2,
+    "datePosted": "Jun 06",
+    "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis",
+    "images": ["http://dummyimage.com/200x100.png/5fa2dd/ffffff"],
+    "category": "General",
+    "likes": [2, 3],
+    "comments": [
+      {
+        "userId": 3,
+        "commentDate": "Jun 07",
+        "commentDesc": "Nice Post"
+      }
+    ]
+  },
+  {
+    "userId": 1,
+    "postId": 3,
+    "datePosted": "Jun 06",
+    "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "images": ["http://dummyimage.com/206x100.png/ff4444/ffffff"],
+    "category": "General",
+    "likes": [2, 3],
+    "comments": [
+      {
+        "userId": 2,
+        "commentDate": "Jun 07",
+        "commentDesc": "Nice Post"
+      }
+    ]
+  },
+  {
+    "userId": 2,
+    "postId": 4,
+    "datePosted": "Jun 06",
+    "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis,",
+    "images": ["http://dummyimage.com/165x100.png/5fa2dd/ffffff"],
+    "category": "General",
+    "likes": [1, 3],
+    "comments": [
+      {
+        "userId": 1,
+        "commentDate": "Jun 07",
+        "commentDesc": "Nice Post"
+      },
+      {
+        "userId": 3,
+        "commentDate": "Jun 07",
+        "commentDesc": "Nice Post"
+      }
+    ]
+  },
+  {
+    "userId": 2,
+    "postId": 5,
+    "datePosted": "Jun 06",
+    "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+    "images": ["http://dummyimage.com/213x100.png/5fa2dd/ffffff"],
+    "category": "General",
+    "likes": [1, 3],
+    "comments": [
+      {
+        "userId": 3,
+        "commentDate": "Jun 07",
+        "commentDesc": "Nice Post"
+      }
+    ]
+  },
+  {
+    "userId": 2,
+    "postId": 6,
+    "datePosted": "Jun 06",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
+    "images": ["http://dummyimage.com/250x100.png/ff4444/ffffff"],
+    "category": "General",
+    "likes": [1, 3],
+    "comments": []
+  },
+  {
+    "userId": 3,
+    "postId": 7,
+    "datePosted": "Jun 06",
+    "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat",
+    "images": ["http://dummyimage.com/234x100.png/cc0000/ffffff"],
+    "category": "General",
+    "likes": [1],
+    "comments": [
+      {
+        "userId": 2,
+        "commentDate": "Jun 07",
+        "commentDesc": "Nice Post"
+      }
+    ]
+  },
+  {
+    "userId": 3,
+    "postId": 8,
+    "datePosted": "Jun 06",
+    "description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+    "images": ["http://dummyimage.com/249x100.png/dddddd/000000"],
+    "category": "General",
+    "likes": [1, 2],
+    "comments": [
+      {
+        "userId": 2,
+        "commentDate": "Jun 07",
+        "commentDesc": "Nice Post"
+      }
+    ]
+  },
+  {
+    "userId": 3,
+    "postId": 9,
+    "datePosted": "Jun 06",
+    "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus",
+    "images": ["http://dummyimage.com/249x100.png/dddddd/000000"],
+    "category": "General",
+    "likes": [2],
+    "comments": [
+      {
+        "userId": 1,
+        "commentDate": "Jun 07",
+        "commentDesc": "Nice Post"
+      }
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+/*#region*/ /*InfoModal*/
+ion-modal {
+  --height: auto;
+}
+
+.modal-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 1rem;
+}
+
+.add-padding {
+  padding-left: 1.25rem;
+}
+.info-modal-header {
+  display: flex;
+  width: 95%;
+
+  font-weight: 600;
+}
+
+.info-modal-first-btns-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 95%;
+}
+
+.add-profile-pic-circular-btn::part(native) {
+  width: 200px;
+  height: 200px;
+  border-radius: 100% !important;
+}
+
+.info-first-step-btn {
+  width: 40vw;
+}
+
+.info-first-step-btn::part(native) {
+  border-radius: 10px;
+}
+
+.info-modal-second-btns-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 95%;
+  align-items: center;
+}
+
+.add-nickname-input {
+  width: 100%;
+  ion-input {
+    width: 100%;
+    height: 5rem;
+  }
+}
+
+.info-second-step-btn {
+  width: 100%;
+}
+
+/*#endregion*/
